@@ -206,3 +206,9 @@ footer a {
    text-decoration: none!important;
    color: #000000;
 }
+
+@media only screen and (max-width: 1024) {
+   .chi-siamo {
+     display: none;
+   }
+ }
