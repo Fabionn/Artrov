@@ -208,9 +208,30 @@ footer a {
 }
 
 .chi-siamo p,
-.footer-secondary {
+.footer-secondary,
+.chi-siamo-hero p {
    font-family: 'Assistant', sans-serif;
    font-weight: 700;
+}
+
+.footer-red,
+.footer-red a {
+   background-color: var(--palette-red);
+   color: var(--palette-white);
+}
+
+.headline-red {
+   background-color: var(--palette-red);
+   color: var(--palette-white);
+   text-align: center;
+}
+.chi-siamo-hero {
+   position: relative;
+}
+.overlay-text {
+   position: absolute;
+   left: 10%;
+   top: 15%;
 }
 
 @media only screen and (max-width: 1024px) {
