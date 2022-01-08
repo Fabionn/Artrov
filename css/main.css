@@ -20,7 +20,7 @@
    box-sizing: inherit;
    margin: 0;
    font-family: 'Anton', sans-serif;
-   letter-spacing: 2px;
+   letter-spacing: 1px;
  }
 
  a {
@@ -207,7 +207,13 @@ footer a {
    color: #000000;
 }
 
-@media only screen and (max-width: 1024) {
+.chi-siamo p,
+.footer-secondary {
+   font-family: 'Assistant', sans-serif;
+   font-weight: 700;
+}
+
+@media only screen and (max-width: 1024px) {
    .chi-siamo {
      display: none;
    }
