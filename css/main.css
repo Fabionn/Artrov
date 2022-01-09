@@ -21,6 +21,7 @@
    margin: 0;
    font-family: 'Anton', sans-serif;
    letter-spacing: 1px;
+   line-height: 1.4;
  }
 
  a {
@@ -220,11 +221,24 @@ footer a {
    color: var(--palette-white);
 }
 
+.footer-yellow,
+.footer-yellow a {
+   background-color: var(--palette-yellow);
+   color: var(--palette-gray);
+}
+
 .headline-red {
    background-color: var(--palette-red);
    color: var(--palette-white);
    text-align: center;
 }
+
+.headline-yellow {
+   background-color: var(--palette-yellow);
+   color: var(--palette-gray);
+   text-align: center;
+}
+
 .chi-siamo-hero {
    position: relative;
 }
@@ -233,6 +247,37 @@ footer a {
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
+}
+
+.card {
+   height: 100%;
+}
+
+.card a {
+   color: var(--palette-white);
+   font-family: 'Assistant', sans-serif;
+   font-weight: 700;
+}
+.card a:hover {
+   background-color: white;
+   color: black;
+}
+.card-gray,
+.card-gray a {
+   background-color: var(--palette-gray);
+   color: var(--palette-white);
+}
+
+.card-red,
+.card-red a {
+   background-color: var(--palette-red);
+   color: var(--palette-white);
+}
+
+.card-blue,
+.card-blue a {
+   background-color: var(--palette-blue);
+   color: var(--palette-white);
 }
 
 @media only screen and (max-width: 1024px) {
