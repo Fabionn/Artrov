@@ -208,6 +208,10 @@ footer a {
    color: #000000;
 }
 
+.breadcrumb-item a {
+   color: black;
+}
+
 .chi-siamo p,
 .footer-secondary,
 .chi-siamo-hero p {
@@ -233,6 +237,12 @@ footer a {
    color: var(--palette-white);
 }
 
+.footer-gray,
+.footer-gray a {
+   background-color: var(--palette-gray);
+   color: var(--palette-white);
+}
+
 .headline-red {
    background-color: var(--palette-red);
    color: var(--palette-white);
@@ -247,6 +257,12 @@ footer a {
 
 .headline-blue {
    background-color: var(--palette-blue);
+   color: var(--palette-white);
+   text-align: center;
+}
+
+.headline-gray {
+   background-color: var(--palette-gray);
    color: var(--palette-white);
    text-align: center;
 }
@@ -295,6 +311,16 @@ footer a {
 .heading {
    font-size: 3rem;
    text-align: center;
+}
+
+.itinerario {
+   width: 100%;
+   background-color: var(--palette-yellow);
+   color: var(--palette-gray);
+}
+
+.itinerari {
+   background-color: var(--palette-yellow);
 }
 
 @media only screen and (max-width: 1024px) {
