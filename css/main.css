@@ -227,6 +227,12 @@ footer a {
    color: var(--palette-gray);
 }
 
+.footer-blue,
+.footer-blue a {
+   background-color: var(--palette-blue);
+   color: var(--palette-white);
+}
+
 .headline-red {
    background-color: var(--palette-red);
    color: var(--palette-white);
@@ -236,6 +242,12 @@ footer a {
 .headline-yellow {
    background-color: var(--palette-yellow);
    color: var(--palette-gray);
+   text-align: center;
+}
+
+.headline-blue {
+   background-color: var(--palette-blue);
+   color: var(--palette-white);
    text-align: center;
 }
 
@@ -278,6 +290,11 @@ footer a {
 .card-blue a {
    background-color: var(--palette-blue);
    color: var(--palette-white);
+}
+
+.heading {
+   font-size: 3rem;
+   text-align: center;
 }
 
 @media only screen and (max-width: 1024px) {
