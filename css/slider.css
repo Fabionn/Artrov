@@ -11,7 +11,7 @@
 }
 @media only screen and (max-width: 1000px) {
   :root {
-    --movie-width: 25vw;
+    --movie-width: 40vw;
   }
 }
 

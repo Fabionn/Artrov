@@ -140,20 +140,24 @@
      padding: 0 0.7em;
    }
 }
-
+/* 
 .carousel-control-prev {
    background-color: var(--palette-yellow);
-}
+} */
 
 .carousel-control-prev:hover {
+   transition: .5s;
+   background-color: var(--palette-yellow);
    opacity: .6;
 }
 
-.carousel-control-next {
+/* .carousel-control-next {
    background-color:	var(--palette-blue);
-}
+} */
 
 .carousel-control-next:hover {
+   transition: .5s;
+   background-color:	var(--palette-blue);
    opacity: .6;
 }
 
@@ -321,6 +325,10 @@ footer a {
 
 .itinerari {
    background-color: var(--palette-yellow);
+}
+
+.artista-link:hover {
+   background-color: unset!important;
 }
 
 @media only screen and (max-width: 1024px) {
