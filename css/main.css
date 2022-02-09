@@ -301,18 +301,21 @@ footer a {
 .card-gray a {
    background-color: var(--palette-gray);
    color: var(--palette-white);
+   border: none;
 }
 
 .card-red,
 .card-red a {
    background-color: var(--palette-red);
    color: var(--palette-white);
+   border: none;
 }
 
 .card-blue,
 .card-blue a {
    background-color: var(--palette-blue);
    color: var(--palette-white);
+   border: none;
 }
 
 .heading {
