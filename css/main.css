@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Assistant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:wght@300&display=swap');
 
 :root {
    --palette-red: #ff0101;
@@ -219,8 +219,9 @@ footer a {
 .chi-siamo p,
 .footer-secondary,
 .chi-siamo-hero p {
-   font-family: 'Assistant', sans-serif;
+   font-family: 'Merriweather', sans-serif;
    font-weight: 700;
+   line-height: 1.6rem;
 }
 
 .footer-red,
@@ -287,8 +288,10 @@ footer a {
 
 .card a {
    color: var(--palette-white);
-   font-family: 'Assistant', sans-serif;
-   font-weight: 700;
+   font-family: 'Anton', sans-serif;
+   letter-spacing: 2px;
+   font-weight: 400;
+   line-height: 1.6rem;
 }
 .card a:hover {
    background-color: white;
@@ -336,3 +339,86 @@ footer a {
      display: none;
    }
  }
+
+ @media (max-width: 991.98px){
+    .navbar-nav {
+      height: 100%;
+    }
+
+    .navbar .navbar-nav .nav-link {
+       font-size: 2em;
+    }
+
+   .navbar-collapse {
+     max-height:max-content;
+     height:calc(100vh - 89px);
+   }
+}
+
+@media (max-width: 1024px){
+   .footer-secondary {
+      display: none;
+   }
+}
+
+.eron-bio h1 {
+   font-style: italic;
+}
+
+.eron-bio p {
+   font-family: 'Merriweather', sans-serif;
+   font-weight: 700;
+   line-height: 1.6rem;
+}
+
+.eron-herobg{
+   background: url('../img/eron.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 80vh;
+}
+
+.eron-herobg2{
+   background: url('../img/eron-word-future.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 80vh;
+}
+
+.eron-herobg3{
+   background: url('../img/eron-wall.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 80vh;
+}
+
+.eron-bg{
+   background: url('../img/eron1.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.eron-bg2{
+   background: url('../img/eron-rimini.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.eron-bg3{
+   background: url('../img/eron-rimini2.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.eron-bg4{
+   background: url('../img/eron-wall2.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
